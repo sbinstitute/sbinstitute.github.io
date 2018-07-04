@@ -1,0 +1,104 @@
+@media(max-width: 1100px){
+		#main-menu.navbar-default .navbar-nav > li > a {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+		.nav-ptb>li>a{
+			padding: 10px 11px!important;
+	}
+		#myVideo {
+		width: 469px;
+	}
+		h1{
+		font-size: 21px;
+   }
+}
+@media(max-width: 1023px){
+		#myVideo {
+		width: 100%;
+	}
+	.nav-ptb>li>a{
+			padding: 10px 3px!important;
+	}
+	.facilities{
+		text-align: center;
+	}
+	.main-departments{
+		text-align: center;
+	}
+	.footer-section{
+		text-align: center;
+
+	}
+}
+@media(max-width: 767px){
+	.tab-pane{
+		text-align: center;
+	}
+	.facilities{
+		text-align: center;
+	}
+	.main-departments{
+		text-align: center;
+	}
+	.team-section{
+		text-align: center;
+	}
+	.team-section img{
+		text-align: center;
+	}
+	.footer-section{
+		text-align: center;
+
+	}
+	.section-title{
+		font-size: 18px;
+
+	}
+	h3{
+		font-size: 16px;
+	}
+	#myVideo{
+		width: 100%;
+	}
+	.footer-nav {
+		margin: 6px;
+	}
+		.footer-btm {
+		padding: 0px;
+	}
+	
+
+}
+@media(max-width: 419px){
+		.nav>li>a {
+		padding: 10px 9px;
+	}
+
+}
+@media(max-width: 359px){
+		.team-member {
+		font-size: 21px;
+	}
+		.nav>li>a {
+		padding: 10px 6px;
+	}
+	.department-w-264 {
+		width: 264px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

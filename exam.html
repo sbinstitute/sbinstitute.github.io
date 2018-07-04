@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>sbinstitute</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/slider.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+	<nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-bg">
+		 <div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html" id="logo">SBINSTITUTE</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav nav-color nav-ptb">
+				<li class=""><a href="index.html">Home</a></li>
+				<li class="dropdown">
+				  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Infrastructure <span class="caret"></span></a>
+				  <ul class="dropdown-menu nav-color">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Home</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Departments <span class="caret"></span></a>
+				  <ul class="dropdown-menu nav-color">
+					<li><a href="#">Engineering</a></li>
+					<li><a href="#">Science</a></li>
+					<li><a href="#">Art</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses <span class="caret"></span></a>
+				  <ul class="dropdown-menu nav-color">
+					<li><a href="#">Diploma</a></li>
+					<li><a href="#">Bsc</a></li>
+					<li><a href="#">Msc</a></li>
+					<li><a href="#">BA</a></li>
+					<li><a href="#">BCom</a></li>
+					<li><a href="#">MA</a></li>
+				  </ul>
+				</li>
+				<li><a href="#team">Team</a></li>
+				<li><a href="placement.html" target="_blank">Job Placement</a></li>
+				<li><a href="http://www.jsu.edu.in/frmResult.aspx" target="_blank">Results</a></li>
+				<li><a href="#student">Student List</a></li>
+				<li><a href="exam.html" target="_blank">Examination</a></li>
+				<li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				<li><a href="#contact"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
+			  </ul>
+			</div>
+		 </div>
+	</nav>
+</header>
+<!--  Header End -->
+<!--  Login Form html -->
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username" name="uname" required class="login-text"><br>
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required class="login-text"><br>
+      <button type="submit" class="login-value">Login</button><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container forget-value" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<!-- Login Form HTML end   -->
+<div class="container t-m-100">
+	<h3 class="team-member"> JS UNIVERSITY SHIKOHABAD Examation Scheduls</h3>
+	<p>SB Institute  Examation Scheduls</p>
+	<div class="table">
+		<table class="table table-bordered  table-dark table-striped">
+			<thead>
+				<tr>
+					<th>BA</th>
+					<th>BSC</th>
+					<th>MA</th>
+					<th>MSC</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Comming Soon</td>
+					<td>Comming Soon</td>
+					<td>Comming Soon</td>
+					<td>Comming Soon</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</div>
+</div>
+<!--  footer section  start here          -->
+<div class="container-fluid footer-top-bg">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="footer-section">
+				<h2> SB Institute Mau</h2>
+				<p>Vill-Sultanpur(Bnaura),Near Mutlupur Mod.
+						 Dist. Mau, U.P, India</p>
+				<p>Mobile: +91 8736950611</p>
+				<p>Mobile: +91 9451085572</p>
+				<p>Mobile: +91 7452920094</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="footer-section">
+				<h2> Pages</h2>
+				<ul class="footer-menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Courses</a></li>
+					<li><a href="#">Department</a></li>
+					<li><a href="#">Team</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="footer-section">
+				<h2> Quick Links</h2>
+				<ul class="footer-menu">
+					<li><a href="http://www.jsu.edu.in/frmResult.aspx" target="_blank">Result</a></li>
+					<li><a href="#">Examination</a></li>
+					<li><a href="#">Faculties</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  footer section  end here            -->
+<!-- footer bottom start here             -->
+<div class="container-fluid footer-btm-bg">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="footer-btm">
+				© Copyright © 2018 sb institute. All rights reserved |  
+			<a href="index.html" style="color: white;"> Design by Er Ram Bhardwaj</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="footer-btm">
+				<ul class="list-inline">
+					<li class="footer-nav"><a href="#"><i class="fa fa-facebook fonts"></i></a></li>
+					<li class="footer-nav"><a href="#"><i class="fa fa-google fonts"></i></a></li>
+					<li class="footer-nav"><a href="#"><i class="fa fa-youtube fonts"></i></a></li>
+					<li class="footer-nav"><a href="#"><i class="fa fa-twitter fonts"></i></a></li>
+					<li class="footer-nav"><a href="#"><i class="fa fa-instagram fonts"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer bottom end here               -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/custome.js"></script>
+</body>
+</html>

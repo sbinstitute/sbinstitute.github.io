@@ -1,0 +1,18 @@
+
+/* facilites animation start here*/
+.fonts-size{
+	-webkit-animation: facilites 1s infinite;
+	 -moz-animation: facilites 1s infinite;
+	 animation: facilites 1s infinite;
+}
+@-webkit-keyframes facilites {
+	from {
+		 -webkit-transform: rotate(0deg);
+		 -moz-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+	}
+}
+/* facilites animation end here  */
