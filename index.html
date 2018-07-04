@@ -58,7 +58,7 @@
 				<li><a href="http://www.jsu.edu.in/frmResult.aspx" target="_blank">Results</a></li>
 				<li><a href="#student">Student List</a></li>
 				<li><a href="exam.html" target="_blank">Examination</a></li>
-				<li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				<li><a href="login.php" target="_blank"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 				<li><a href="#contact"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
 			  </ul>
 			</div>
@@ -66,46 +66,7 @@
 	</nav>
 </header>
 <!--  Header End -->
-<!--  Login Form html -->
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
 
-    <div class="container">
-      <label for="uname"><b>Username</b></label><br>
-      <input type="text" placeholder="Enter Username" name="uname" required class="login-text"><br>
-      <label for="psw"><b>Password</b></label><br>
-      <input type="password" placeholder="Enter Password" name="psw" required class="login-text"><br>
-      <button type="submit" class="login-value">Login</button><br>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container forget-value" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-
-<!-- Login Form HTML   -->
 <div class="container-fluid">
 	<!--  slider and tab start here -->
 	<section id="main-slider">
